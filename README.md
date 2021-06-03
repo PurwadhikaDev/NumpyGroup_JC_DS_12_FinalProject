@@ -88,7 +88,7 @@ For clustering we use **three algorithm**:
 2. **AHC** 
 3. **Gaussian Mixture**  
 
-[for further details please refer to Clustering Notebook](https://github.com/PurwadhikaDev/NumpyGroup_JC_DS_12_FinalProject/blob/main/1_Clustering_CreditCardCustomerSegmentation.ipynb) 
+[For further details please refer to Clustering Notebook](https://github.com/PurwadhikaDev/NumpyGroup_JC_DS_12_FinalProject/blob/main/1_Clustering_CreditCardCustomerSegmentation.ipynb) 
 
 Below is our **Silhouette Score** comparison for each algorithm and each number segment:
 
@@ -117,9 +117,9 @@ From Insight Above we can conclude:
 
 For EDA we do the following steps below:
 - **Binning**
-- Aggregating Columns
-- Visualization
-- Insight & Conclusion
+- **Aggregating Columns**
+- **Visualization**
+- **Insight & Conclusion**
 
 **BUSINESS QUESTIONS** 
 - What features which have impact to SEGMENT?
