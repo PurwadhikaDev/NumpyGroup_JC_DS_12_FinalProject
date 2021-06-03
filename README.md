@@ -104,7 +104,7 @@ Below is our **Clustering Visualization** Result using KMeans Algorithm:
 ![image](https://user-images.githubusercontent.com/78836373/120307642-6c095f00-c2fd-11eb-96c9-8585c2551ca6.png)
 ![image](https://user-images.githubusercontent.com/78836373/120307667-73c90380-c2fd-11eb-866a-3a744e126aa7.png)
 
-![](VID-20210602-WA0000_1_1_3.gif)
+![](https://github.com/PurwadhikaDev/NumpyGroup_JC_DS_12_FinalProject/blob/main/Media/VID-20210602-WA0000_1_1_3.gif)
 
 From Insight Above we can conclude:
 * **SEGMENT 0 : LOW CUSTOMERS** This customer group indicates a large group of customers who have **LOW BALANCES**, **small spenders (LOW PURCHASES**) with the **LOWEST CREDIT LIMIT**. 
