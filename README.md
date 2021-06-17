@@ -243,3 +243,11 @@ Using our Multiclass Machine Learning Modelling, our company **could save money*
 
 ## FURTHER RESEARCH (NEXT ACTION)
 - For further research information, customer behaviour (Payment history, Length of credit history, New credit, The variety of credit products you have, including credit cards, installment loans, finance company accounts, mortgage loans and so on) could be included into the dataset in hope to improve the models and measure the importance of these features
+
+## MODEL DEPLOYMENT (FLASK DASHBOARD)
+
+![image](https://user-images.githubusercontent.com/78836373/122417212-886ef200-cfb3-11eb-9087-519a5b284eaa.png)
+![image](https://user-images.githubusercontent.com/78836373/122417425-ab99a180-cfb3-11eb-821b-57d434bbe1b3.png)
+
+
+
