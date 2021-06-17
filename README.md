@@ -249,11 +249,11 @@ Using our Multiclass Machine Learning Modelling, our company **could save money*
 ### HOME PAGE
 
 ![image](https://user-images.githubusercontent.com/78836373/122417753-ebf91f80-cfb3-11eb-99ff-bc08b5901ad8.png)
-![image](https://user-images.githubusercontent.com/78836373/122417922-0fbc6580-cfb4-11eb-9ab4-60f5301b5335.png)
 
 
 ### ABOUT PAGE
 
+![image](https://user-images.githubusercontent.com/78836373/122417922-0fbc6580-cfb4-11eb-9ab4-60f5301b5335.png)
 ![image](https://user-images.githubusercontent.com/78836373/122417980-1a76fa80-cfb4-11eb-9d30-253df5dfcdd4.png)
 
 
