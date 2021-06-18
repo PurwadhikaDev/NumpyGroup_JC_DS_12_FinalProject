@@ -1,0 +1,41 @@
+{% extends 'index.html' %} {% block content %}
+<center>
+    <div class="p1">
+        <b>Customer Segmentation Prediction</b>
+    </div>
+    <br>
+    <div class="container">
+        <b>Balance: </b> {{BALANCE}}<br>
+        <b>Balance Frequency Update: </b> {{BALANCE_FREQUENCY}}<br>
+        <b>Amount of Purchases: </b> {{PURCHASES}}<br>
+        <b>Maximum Amount of Purchases in One Transaction: </b> {{ONEOFF_PURCHASES}}<br>
+        <b>Amount of Purchases Done in Installment: </b> {{INSTALLMENTS_PURCHASES}}<br>
+        <b>Cash in Advance Limit: </b> {{CASH_ADVANCE}}<br>
+        <b>How Frequently Purchased Being Made: </b> {{PURCHASES_FREQUENCY}}<br>
+        <b>How Frequently Purchases Happening in One Transaction: </b> {{ONEOFF_PURCHASES_FREQUENCY}}<br>
+        <b>How Frequently Purchases in Installments are Being Done: </b> {{PURCHASES_INSTALLMENTS_FREQUENCY}}<br>
+        <b>How Frequently Cash in Advance Being Paid: </b> {{CASH_ADVANCE_FREQUENCY}}<br>
+        <b>Number of Transactions made with "Cash in Advanced: </b> {{CASH_ADVANCE_TRX}}<br>
+        <b>Number of purchase transactions made: </b> {{PURCHASES_TRX}}<br>
+        <b>Limit Credit Card: </b> {{CREDIT_LIMIT}}<br>
+        <b>Amount of Payment Done: </b> {{PAYMENTS}}<br>
+        <b>Minimum Amount of Payments: </b> {{MINIMUM_PAYMENTS}}<br>
+        <b>Percent of Full Payment Paid:: </b> {{PRC_FULL_PAYMENT}}<br>
+        <b>Tenure of Credit Card Service: </b> {{TENURE}}<br>
+        &nbsp;&nbsp;
+        <b><h1 style="color:green;font-size:30px;">Customer Segmentation Result: </b> {{segment_pred}}</h1> <br>
+    </div>
+    <hr>
+    <a href="/pred_lr" target="_self">
+        <button style="background-color: rgb(255, 90, 95); color: whitesmoke" class="btn btn-light">
+            Predict Again
+        </button>
+    </a>
+    <a href="http://127.0.0.1:5000/" target="_self">
+        <button style="background-color: rgb(255, 90, 95); color: whitesmoke" class="btn btn-light">
+            Back to Home
+        </button>
+    </a>
+</center>
+
+{% endblock %}

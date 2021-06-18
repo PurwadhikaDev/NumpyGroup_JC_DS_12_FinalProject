@@ -1,0 +1,252 @@
+{% extends 'index.html' %}
+
+{% block content %}
+
+<!-- Start Banner -->
+<section class="bg-light w-100">
+    <div class="container">
+        <div class="row d-flex align-items-center py-5">
+            <div class="col-lg-6 text-start">
+                <h1 class="h2 py-5 text-primary typo-space-line">Purwadhika JCDS Final Project - Numpy Team</h1>
+                <p class="light-300">
+                    This is a project for graduation requirements of Purwadhika - 
+                    Job Connector Data Scientist and Machine Learning Program.
+                </p>
+                <p>
+                    Numpy Team is consists of:
+                </p>
+                <p>
+                    - Fajar Setiawan (jarbling@gmail.com)
+                </p>
+                <p>
+                    - Fransiskus Alvin Andriyanto (fransiskusalvin@yahoo.com)
+                </p>
+                <p>
+                    - Panji Agdiwijaya (agdiwijaya@gmail.com)
+                                  
+                </p>
+                <p class="light-300">
+                    In this project, we position ourselves as a part of the Data Scientist Team 
+                    in one of the Bank in USA. 
+                    We are assigned to help the marketing team to create a segmentation of credit card customers
+                    based on their behavior.
+                </p>
+                
+            </div>
+            <div class="col-lg-6">
+                <a href=""><img src="./static/img/problem.jpg" class="rounded img-fluid" alt=""></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Banner -->
+
+
+<!-- Start Problem Definition -->
+<section class="container py-4">
+    <div class="pt-3 pb-3 d-lg-flex align-items-center gx-5">
+
+        <div class="col-lg-7">
+            <h2 class="h2 py-5 typo-space-line">Problem Definition</h2>
+            
+            <p class="text-muted light-300">
+                Customer loyalty is one of the key to survive in this credit card business competition, 
+                because the cost of acquiring new customers is estimated at five times the rate of retaining existing ones.
+                But in order to retain customers, we must first understanding our Customers Type and Customers Behaviour
+                
+            </p>
+            
+            <p class="text-muted light-300">
+                Previously, our bank only has 1 product of credit card, resulting low customer loyalty because inaccurate marketing program
+                After have done a long research, our management decides to make 3 different products: Business Unlimited (High), Business Cash (Medium), and Performance Business (Low)
+                In other hand, the company doesn't know which customers belongs to which products
+            </p>
+            
+            <!-- <p class="text-muted light-300">
+                The expected output of this project is a system that can make an estimation 
+                of an accurate and reasonable value (price) for a property based on the aspects of 
+                the property by using ML. However, due to the limitation of our 
+                time budget, we limit the capability of our model in this project to predict an 
+                output only for properties with grade lower than Exceptional, since Exceptional 
+                properties have a price range that is very different than the rest of properties with other grades.
+            </p> -->
+        </div>
+
+        <div class="col-lg-6">
+            <a href=""><img src="./static/img/problemdef.png" class="rounded img-fluid" alt=""></a>
+        </div>
+
+    </div>
+</section>
+<!-- End Problem Definition -->
+
+<!-- Start Business Objectives -->
+<!-- <section class="bg-secondary py-3">
+    <div class="container py-5">
+        <h2 class="h2 text-white text-center pb-5">Business Objectives</h2>
+        <div class="row text-center">
+            <div class="col-md-6 mb-3">
+                <div class="card partner-wap2 py-4 align-items-center">
+                    <i class='display-3 text-white bx bx-dollar-circle pb-3'></i>
+                    <p class="light-300 text-white col-8">
+                        To understand the Customers Type and Customer Behaviour through Customer Data Clustering
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <div class="card partner-wap2 py-4 align-items-center">
+                    <i class='display-3 bx text-white bxs-check-shield pb-3'></i>
+                    <p class="light-300 text-white col-8">
+                        To define product details based on Clustering Results to ensure that customers get the proper product
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <div class="card partner-wap2 py-4 align-items-center">
+                    <i class='display-3 bx text-white bxs-check-shield pb-3'></i>
+                    <p class="light-300 text-white col-8">
+                        To help the Marketing Team to define new Customers Type through Multiclass Clasification Machine Learning Technique
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+<!--End Business Objectives-->
+
+<!-- Start Data Requirements -->
+<section class="why-us banner-bg bg-light">
+    <div class="container my-4">
+        <div class="row">
+            <div class="banner-img col-lg-5">
+                <a href=""><img src="./static/img/goals.jpg" class="rounded img-fluid" alt=""></a>
+            </div>
+            <div class="banner-content col-lg-7 align-self-end">
+                <h2 class="h2 pb-3">Project Goals</h2>
+                <p class="text-muted pb-3 light-300">
+                    To understand the Customers Type and Customer Behaviour through Customer Data Clustering
+                </p>
+                <p class="text-muted pb-3 light-300">
+                    To define product details based on Clustering Results to ensure that customers get the proper product
+                </p>
+                <p class="text-muted pb-3 light-300">
+                    To help the Marketing Team to define new Customers Type through Multiclass Clasification Machine Learning Technique
+                </p>               
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Data Requirements -->
+
+
+<!-- Start Data Requirements -->
+<!-- <section class="why-us banner-bg bg-light">
+    <div class="container my-4">
+        <div class="row">
+            <div class="banner-img col-lg-5">
+                <a href="https://storyset.com/business"><img src="./static/img/analytics-amico.svg" class="rounded img-fluid" alt="Illustration by Freepik Storyset"></a>
+            </div>
+            <div class="banner-content col-lg-7 align-self-end">
+                <h2 class="h2 pb-3">Data Requirements</h2>
+                <p class="text-muted pb-3 light-300">
+                    To understand the Customers Type and Customer Behaviour through Customer Data Clustering
+                </p>
+                <p class="text-muted pb-3 light-300">
+                    To define product details based on Clustering Results to ensure that customers get the proper product
+                </p>
+                <p class="text-muted pb-3 light-300">
+                    To help the Marketing Team to define new Customers Type through Multiclass Clasification Machine Learning Technique
+                </p>               
+            </div>
+        </div>
+    </div>
+</section> -->
+<!-- End Data Requirements -->
+
+
+
+<section class="banner-bg bg-white">
+    <div class="container my-4">
+        <div class="row text-center">
+            <div class="objective col-lg-12 pb-4">
+                <h2 class="h2 py-5">Workflow Process</h2>
+            </div>
+            <div class="objective col-lg-12 pb-4">
+                <a href=""><img src="./static/img/workflow.png" class="center"  alt=""></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Start Analytic Approach -->  
+<!-- <section class="banner-bg bg-white">
+    <div class="container my-4">
+        <div class="row text-center">
+            <div class="objective col-lg-12 pb-4">
+                <h2 class="h2 py-5">Analytic Approach</h2>
+            </div>
+            
+             <div class="objective col-lg-4">
+                <div class="objective-icon card m-auto py-4 mb-2 mb-sm-4 bg-secondary shadow-lg">
+                    <i class="display-4 bx bxs-analyse text-light"></i>
+                </div>
+                <h2 class="objective-heading h3 mb-2 mb-sm-4 light-300"> ML Techniques</h2>
+                <p class="light-300">
+                    Since the value (price) that we want to predict is a continuous value, 
+                    this problem can be addressed with Supervised Learning, more specifically with Regression.
+                </p>
+            </div>
+            
+            <div class="objective col-lg-4">
+                <div class="objective-icon card m-auto py-4 mb-2 mb-sm-4 bg-secondary shadow-lg">
+                    <i class="display-4 bx bxs-message-alt-error text-light"></i>
+                </div>
+                <h2 class="objective-heading h3 mb-2 mb-sm-4 light-300">Risk</h2>
+                <p class="light-300">
+                    The risk that may be caused by wrong prediction from the ML model is profit 
+                    loss especially when the model gives under appraised value (price).
+                </p>
+            </div>
+
+            <div class="objective col-lg-4 mt-sm-0 mt-4">
+                <div class="objective-icon card m-auto py-4 mb-2 mb-sm-4 bg-secondary shadow-lg">
+                    <i class="display-4 bx bxs-tachometer text-light"></i>
+                </div>
+                <h2 class="objective-heading h3 mb-2 mb-sm-4 light-300">Performance Measure</h2>
+                <p class="light-300">
+                    The performance measures to evaluate the ML model are Mean Squared Error (MSE), 
+                    Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), and the Coefficient of Determination (R&sup2;).
+                </p>
+            </div>
+        </div>
+        
+        <div class="row text-center pt-5">
+            <div class="objective col-lg-4 mt-sm-0 mt-4 m-auto">
+                <div class="objective-icon card m-auto py-4 mb-2 mb-sm-4 bg-secondary shadow-lg">
+                    <i class="display-4 bx bxs-cog text-light"></i>
+                </div>
+                <h2 class="objective-heading h3 mb-2 mb-sm-4 light-300">Action</h2>
+                <p class="light-300">
+                    The business user can utilize the prediction result by comparing it 
+                    with the appraisal value given by the AMC.
+                </p>
+            </div>
+                
+            <div class="objective col-lg-4 mt-sm-0 mt-4 m-auto">
+                <div class="objective-icon card m-auto py-4 mb-2 mb-sm-4 bg-secondary shadow-lg">
+                    <i class="display-4 bx bxs-chevrons-up text-light"></i>
+                </div>
+                <h2 class="objective-heading h3 mb-2 mb-sm-4 light-300">Value</h2>
+                <p class="light-300">
+                    The values created from the project are the improvement in the underwriting process 
+                    and the maximized profit from giving the right appraisal and making the right decision in providing loan.
+                </p>
+            </div>
+        </div>
+    </div>
+</section> -->
+<!-- End Analytic Approach-->
+
+{% endblock content %}
