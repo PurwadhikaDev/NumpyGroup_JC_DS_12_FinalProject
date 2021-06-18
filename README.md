@@ -272,4 +272,4 @@ Using our Multiclass Machine Learning Modelling, our company **could save money*
 
 ![image](https://user-images.githubusercontent.com/78836373/122418752-a2f59b00-cfb4-11eb-9c68-97b3aa935803.png)
 
-[For Further details please refer Dashboard File](xxx)
+[For Further details please refer Dashboard File](https://github.com/PurwadhikaDev/NumpyGroup_JC_DS_12_FinalProject/tree/main/Dashboard)
